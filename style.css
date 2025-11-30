@@ -2,10 +2,10 @@
 :root{
   --brand: #8FAB36;
   --accent: #FFC857;
-  --dark: #112A12;
-  --muted: #6B6B6B;
+  --dark: #1A1A1A;
+  --muted: #A1A1A1;
   --bg: #0a0a0a;
-  --card-bg: #ffffff;
+  --card-bg: #141414;
   --radius: 12px;
   --wrap: 1100px;
   --shadow: 0 8px 30px rgba(0,40,60,0.06);
