@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Professional Plumbing Services</title>
+  <meta name="description" content="Your Local Experts for Every Pipe & Drain — fast, reliable residential and commercial plumbing services."> 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="wrap header-grid">
+      <div class="brand">
+        <img src="assets/header.jpg" alt="Plumbing company logo" class="brand-logo">
+        <div class="brand-text">
+          <strong class="brand-name">Professional Plumbing Services</strong>
+          <span class="brand-tag">Your Local Experts for Every Pipe & Drain.</span>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-content">
+          <h1>Reliable Plumbing Solutions for Homes & Businesses</h1>
+          <p class="lead">From leak repair and drain cleaning to water heater installs and emergency service — we're here when you need us most.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Request a Service Call</a>
+            <a class="btn btn-outline" href="#services">View Services</a>
+          </div>
+
+          <ul class="trust-list">
+            <li>✔ Licensed & insured</li>
+            <li>✔ Fast response times</li>
+            <li>✔ Upfront, honest pricing</li>
+          </ul>
+        </div>
+
+        <aside class="lead-form">
+          <div class="card">
+            <h3>Request a Quote</h3>
+            <p class="muted">Fast service • Honest pricing • Expert technicians</p>
+
+            <form id="leadForm" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="dcb2e950-571d-420d-9cc7-fb462047a864"> 
+
+              <label for="q-name">Name</label>
+              <input id="q-name" name="name" type="text" required placeholder="Your full name">
+
+              <label for="q-phone">Phone</label>
+              <input id="q-phone" name="phone" type="tel" required placeholder="Phone number">
+
+              <label for="q-email">Email</label>
+              <input id="q-email" name="email" type="email" placeholder="Email">
+
+              <label for="q-service">Service</label>
+              <select id="q-service" name="service" required>
+                <option value="Leak Repair">Leak Repair</option>
+                <option value="Drain Cleaning">Drain Cleaning</option>
+                <option value="Water Heater">Water Heater Installation & Repair</option>
+                <option value="Pipe Installation">Pipe Installation & Replacement</option>
+                <option value="Emergency Service">24/7 Emergency Plumbing</option>
+              </select>
+
+              <label for="q-message">Message</label>
+              <textarea id="q-message" name="message" rows="3" placeholder="Tell us about your issue"></textarea>
+
+              <button class="btn btn-primary" type="submit">Send Request</button>
+              <p id="leadResult" class="form-status" aria-live="polite"></p>
+            </form>
+
+            <p class="footnote">Or call us: <a href="tel:5555555555" class="link-phone">(555) 555-5555</a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section-light">
+      <div class="wrap">
+        <h2 class="section-title">Plumbing Services</h2>
+        <p class="section-sub">Professional plumbing solutions for every home and business.</p>
+
+        <div class="services-grid modern-services">
+          <article class="service-card">
+            <div class="service-icon">
+              <img src="assets/pipe.png" alt="Pipe Leak Icon">
+            </div>
+            <h3>Leak Detection & Repair</h3>
+            <p>We locate and repair water leaks quickly to prevent damage and reduce water bills.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <img src="assets/plunger.svg" alt="Drain Cleaning Icon">
+            </div>
+            <h3>Drain Cleaning</h3>
+            <p>Clogged drains cleared fast with modern tools and hydro‑jetting options.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <img src="assets/fire.svg" alt="Water Heater Icon">
+            </div>
+            <h3>Water Heater Service</h3>
+            <p>Installation, repair, and maintenance for tank and tankless water heaters.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <img src="assets/pipe.svg" alt="Pipe Installation icon">
+            </div>
+            <h3>Pipe Installation & Replacement</h3>
+            <p>New piping, repiping, fixture installs, and plumbing system upgrades.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon">
+              <img src="assets/clock.svg" alt="Emergency Service Icon">
+            </div>
+            <h3>Emergency Plumbing</h3>
+            <p>Available 24/7 for urgent plumbing issues — fast, reliable help when it matters.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+<!-- PORTFOLIO -->
+<section class="section-dark">
+  <div class="wrap">
+    <h2 class="section-title">Recent Plumbing Projects</h2>
+    <p class="section-sub">A look at some of our recent repairs, installations, and upgrades.</p>
+
+    <div class="portfolio-grid">
+      <img src="assets/photo1.jpg" alt="Plumbing project photo">
+      <img src="assets/photo6.jpg" alt="Plumbing project photo">
+      <img src="assets/photo3.jpg" alt="Plumbing project photo">
+      <img src="assets/photo4.jpg" alt="Plumbing project photo">
+    </div>
+  </div>
+</section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section-light">
+  <div class="wrap">
+    <h2 class="section-title">What Customers Say</h2>
+
+    <div class="testimonial-carousel">
+      
+      <!-- NEW WRAPPER FOR CLIPPING -->
+      <div class="t-viewport">
+        <div class="testimonial-track">
+          <blockquote>
+            <p>"Super fast and friendly — fixed our leaking pipe in under an hour!"</p>
+            <cite>— Jamie R.</cite>
+          </blockquote>
+
+          <blockquote>
+            <p>"Transparent pricing and excellent service. Highly recommend."</p>
+            <cite>— Mark L.</cite>
+          </blockquote>
+
+          <blockquote>
+            <p>"They repaired my water heater the same day. Outstanding service!"</p>
+            <cite>— Sarah K.</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <button class="t-prev">❮</button>
+      <button class="t-next">❯</button>
+    </div>
+<p class="muted">*Testimonials are for demo purposes*</p>
+  </div>
+</section>
+
+    <!-- CONTACT CTA -->
+    <section class="cta-banner">
+      <div class="wrap cta-grid">
+        <div>
+          <h3>Need a Plumber You Can Count On?</h3>
+          <p>Whether it's an emergency or routine service — we're ready to help.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="contact.html">Request Service</a>
+          <a class="btn btn-outline" href="tel:7604738240">Call Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <img src="assets/header.jpg" alt="Plumbing brand logo" class="brand-small">
+        <p class="muted">Licensed & Insured • Serving the local community</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="tel:5555555555" class="link-phone">(555) 555-5555</a></p>
+        <p><a href="mailto:demo@example.com" class="link">demo@example.com</a></p>
+        <p class="muted">© <span id="year"></span> Professional Plumbing Services</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+let index = 0;
+const track = document.querySelector(".testimonial-track");
+const slides = document.querySelectorAll(".testimonial-track blockquote");
+const total = slides.length;
+
+document.querySelector(".t-next").onclick = () => {
+  index = (index + 1) % total;
+  track.style.transform = `translateX(-${index * 100}%)`;
+};
+
+document.querySelector(".t-prev").onclick = () => {
+  index = (index - 1 + total) % total;
+  track.style.transform = `translateX(-${index * 100}%)`;
+};
+</script>
+<script>
+  (function(e,a,d,i,c,t=a.createElement(d)){e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},t.src=i,t.async=1,a.body.insertAdjacentElement("beforeend",t)})(window,document,"script","https://widget.quickchat.ai/chat.js","_quickchat");
+  _quickchat("host", "app.quickchat.ai");
+  _quickchat("init", "aaz5sl5sy2");
+</script>
+</body>
+</html>
